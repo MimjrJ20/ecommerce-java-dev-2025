@@ -8,7 +8,7 @@ O objetivo é simular o funcionamento de uma loja virtual, com cadastro de produ
 ## Tecnologias utilizadas
 - **Java 17+**
 - **Maven/Gradle**
-- **Spring Boot** (se for usar)
+- **Spring Boot**
 - **JPA/Hibernate** (para persistência de dados)
 - **MySQL/PostgreSQL** (banco de dados)
 - **Git & GitHub**
