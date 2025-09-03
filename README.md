@@ -10,6 +10,13 @@ O objetivo é criar uma loja virtual que una dois mundos: os **board games** e o
 ## Objetivo e mercado
 O sistema é voltado para pessoas que gostam tanto de jogos de tabuleiro quanto de jogos eletrônicos, oferecendo um espaço único onde os dois tipos de produtos convivem.
 
+### Por que juntar board games e jogos de console?
+Muitos fãs de jogos, seja de tabuleiro ou de console, têm algo em comum: **querem se divertir, se conectar com amigos e descobrir novas experiências de entretenimento**. Este e-commerce reúne esses dois mundos em um só lugar, oferecendo **comodidade, variedade e praticidade** para quem gosta de jogar.
+
+Com isso, o cliente não precisa procurar em várias lojas, consegue ver **descrições detalhadas, preços e vídeos de review** antes de decidir a compra, e encontra produtos para diferentes estilos de jogo. Além disso, o sistema facilita a compra com **cadastro rápido, checkout seguro, integração de endereços e validação de documentos**.
+
+Este projeto é, portanto, um **hub de entretenimento** pensado para quem gosta de jogar, seja no tabuleiro ou no console.
+
 ---
 
 ## Portais do sistema
