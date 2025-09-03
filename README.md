@@ -38,11 +38,13 @@ Este projeto é, portanto, um **hub de entretenimento** pensado para quem gosta 
 
 ## Tecnologias utilizadas
 - **Backend:** Java + Maven
-- **Frontend:** Frameworks JavaScript (a definir: React, Angular ou Vue)
+- **Frontend:** Frameworks JavaScript (Angular)
 - **Banco de Dados:** MySQL
+- Spring Boot
 
-### Integrações externas
+### APIs
 - ViaCEP (consulta de endereços)
+- Criação de endpoints para gerenciamento do e-commerce,
 
 ### Testes
 - Testes automatizados planejados para garantir qualidade do código e confiabilidade do sistema.
@@ -56,7 +58,6 @@ O sistema seguirá o padrão **MVC (Model-View-Controller)**, garantindo separa�
 ### Design Patterns aplicados
 - **Repository Pattern:** abstração do acesso a dados, facilitando manutenção e testes.
 - **Factory:** padronização na criação de objetos complexos.
-- **Singleton:** utilizado para serviços globais como logging e cache.
 - **DTOs (Data Transfer Objects):** para transportar dados entre camadas sem expor diretamente as entidades.
 
 ---
