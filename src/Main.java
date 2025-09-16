@@ -1,3 +1,4 @@
+import model.SupplierModel;
 import model.UserModel;
 import util.DateUtils;
 
@@ -26,5 +27,22 @@ public class Main {
         System.out.println("Documento: " + user.getDocumentType() + " - " + user.getDocumentNumber());
         System.out.println("Criado em: " + DateUtils.formatDateTime(user.getCreated()));
         System.out.println("Atualizado em: " + DateUtils.formatDateTime(user.getUpdated()));
+
+        SupplierModel supplier = new SupplierModel(
+                "michelesa@teste.com",    // contactInfo
+                "123456789000101",         // documentNumberSupplier
+                "1",                       // id
+                "Michele SA",              // name
+                LocalDateTime.now(),       // created
+                LocalDateTime.now()        // updated
+        );
+
+        System.out.println("Fornecedor criado com sucesso!");
+        System.out.println("ID: " + supplier.getId());
+        System.out.println("Nome: " + supplier.getName());
+        System.out.println("Email: " + supplier.getContactInfo());
+        System.out.println("Documento: " + supplier.getDocumentNumberSupplier());
+        System.out.println("Criado em: " + DateUtils.formatDateTime(supplier.getCreated()));
+        System.out.println("Atualizado em: " + DateUtils.formatDateTime(supplier.getUpdated()));
     }
 }
