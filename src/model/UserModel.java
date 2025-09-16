@@ -12,6 +12,9 @@ public class UserModel {
     private LocalDateTime created;
     private LocalDateTime updated;
 
+    public UserModel() {
+    }
+
     public UserModel(String documentNumber, String documentType,
                      String email, String id,
                      String name, String role,
