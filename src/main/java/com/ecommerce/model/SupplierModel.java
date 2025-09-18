@@ -1,32 +1,43 @@
-package model;
+package com.ecommerce.model;
 
 import java.time.LocalDateTime;
 
-public class CategoryModel {
+public class SupplierModel {
     private String id;
     private String name;
-    private Long description;
+    private String contactInfo;
+    private String documentNumberSupplier;
     private LocalDateTime created;
     private LocalDateTime updated;
 
-    public CategoryModel() {
+    public SupplierModel() {
     }
 
-    public CategoryModel(Long description, String id, String name,
+    public SupplierModel(String contactInfo, String documentNumberSupplier,
+                         String id, String name,
                          LocalDateTime created, LocalDateTime updated) {
-        this.description = description;
+        this.contactInfo = contactInfo;
+        this.documentNumberSupplier = documentNumberSupplier;
         this.id = id;
         this.name = name;
         this.created = created;
         this.updated = updated;
     }
 
-    public Long getDescription() {
-        return description;
+    public String getContactInfo() {
+        return contactInfo;
     }
 
-    public void setDescription(Long description) {
-        this.description = description;
+    public void setContactInfo(String contactInfo) {
+        this.contactInfo = contactInfo;
+    }
+
+    public String getDocumentNumberSupplier() {
+        return documentNumberSupplier;
+    }
+
+    public void setDocumentNumberSupplier(String documentNumberSupplier) {
+        this.documentNumberSupplier = documentNumberSupplier;
     }
 
     public String getId() {

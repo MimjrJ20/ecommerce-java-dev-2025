@@ -1,6 +1,8 @@
-import model.SupplierModel;
-import model.UserModel;
-import util.DateUtils;
+package main;
+
+import com.ecommerce.model.SupplierModel;
+import com.ecommerce.model.UserModel;
+import com.ecommerce.util.DateUtils;
 
 import java.time.LocalDateTime;
 
