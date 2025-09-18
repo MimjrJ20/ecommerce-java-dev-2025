@@ -1,4 +1,4 @@
-package main;
+package com.ecommerce;
 
 import com.ecommerce.model.SupplierModel;
 import com.ecommerce.model.UserModel;
