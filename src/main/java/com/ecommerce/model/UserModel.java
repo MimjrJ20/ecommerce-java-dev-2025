@@ -1,14 +1,38 @@
-package model;
+package com.ecommerce.model;
+
+import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
+@Entity
+@Table(name = "user")
 public class UserModel {
-    private String name;
+
+    @Id
+    @Column(length = 255)
     private String id;
+
+    @Column(length = 255)
+    private String name;
+
+    @Column(length = 255, unique = true)
     private String email;
+
+    @Column(length = 255)
     private String role;
+
+    @Column(name = "documentType", length = 40)
     private String documentType;
+
+    @Column(name = "documentNumber", length = 40)
     private String documentNumber;
+
+    @Column(length = 255)
+    private String password;
+
+    @Column(name = "addressId", length = 255)
+    private String addressId;
+
     private LocalDateTime created;
     private LocalDateTime updated;
 
