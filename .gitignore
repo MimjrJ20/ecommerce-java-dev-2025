@@ -31,3 +31,4 @@ bin/
 # Maven / Gradle
 /target/
 *.class
+.env
